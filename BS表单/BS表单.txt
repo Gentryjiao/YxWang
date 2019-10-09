@@ -1,0 +1,61 @@
+1.制作如图1的基础表单。
+
+2.制作如图2的水平表单。
+
+3.制作如图3的内联表单。
+
+4.在表单中添加一个单行文本框，用于输入用户名（输入提示为“Enter name”）
+
+<form role="form">
+
+  <div class="form-group">
+
+    <input type="email" class="form-control" placeholder="Enter email">
+
+    <!-- 在此处添加代码 -->
+
+  </div>
+
+</form>
+
+5.在表单中添加下拉菜单，可以实现爱好多选（踢足球、游泳、慢跑、跳舞）。
+
+<form role="form">
+
+  <!-- 在此处添加代码 -->
+
+</form>
+
+6.制作如图4的单选和复选效果。
+
+7.在表单中添加代码，完成一组单选按钮，选项有男性、女性、中性。
+
+要求：
+
+1)只可同时选择其中一项。
+
+2)水平显示三个选择项。
+
+8.制作如图5和图6的大小不同的表单控件。
+
+9.制作如图7的表单控件禁用效果。
+
+10.在表单中添加一个邮箱地址输入框输错地址后的效果，如图8。
+
+11.在表单中添加代码，为输入框提示“你输入的信息是错误的”的信息。
+
+<form role="form">
+
+  <div class="form-group has-error has-feedback">
+
+    <label class="control-label" for="inputError1">错误状态</label>
+
+    <input type="text" class="form-control" id="inputError1" placeholder="错误状态">
+
+    <!-- 在此处添加代码 -->
+
+    <span class="glyphicon glyphicon-remove form-control-feedback"></span>
+
+  </div>
+
+</form>
